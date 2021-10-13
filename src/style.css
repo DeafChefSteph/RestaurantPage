@@ -1,0 +1,138 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background: url('./restaurant.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #367FBF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#divHeader{
+    background-color: #367FBF;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: #F21905;
+    width: 80%;
+    background-color: #367FBF;
+    padding-left: 10%;
+   
+}
+
+
+#navbar{
+    height: 4rem;
+    margin: auto;
+    width: 80%;
+    background-color: #40222D;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;  
+  
+       
+}
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li{
+    display: inline;
+    
+}
+#navbar button{
+    width: 8rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #F26A4B;
+    border-radius: 24px;
+    border: #40222D 2px solid;
+    
+}
+
+.buttonActive{
+    background-color: #F21905 !important;
+    transition-delay: 100ms;
+}
+
+#homeMain{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    padding-top: 10px;
+    color: white;
+
+    background-color: #40222D;
+}
+
+#homeMain p{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+#menuMain, #contactMain{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    padding-top: 10px;
+    color: white;
+    display: block;
+
+    background-color: #40222D;
+}
+
+#contactMain p {
+    font-size: 1.5rem;
+}
+
+#contactDiv{
+    margin: auto;
+    margin-top: 2.5rem;
+    width: 60%;
+    height: 80%;
+    background-color: #F21905;
+    color: white;
+    font-size: large;
+}
+
+#centerDiv{
+    margin: auto;
+    height: 80%;
+    width: 80%;
+    padding-top: 3.5rem;
+}
+
+table{
+    margin: auto;
+    
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+table, th, td{
+    border: 3px solid black;
+}
+
+.notActive{
+    width: 0 !important; 
+    height: 0 !important;
+}
+
+#footer{
+    background-color: #367FBF;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
